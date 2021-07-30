@@ -1,0 +1,24 @@
+{
+  "name": "@njam/diversity-index",
+  "version": "0.0.0",
+  "description": "Calculate a diversity index based on the USA Today diversity index",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "uvu tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njam-data/diversity-index.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njam-data/diversity-index/issues"
+  },
+  "homepage": "https://github.com/njam-data/diversity-index#readme",
+  "dependencies": {
+    "standard": "^16.0.3",
+    "uvu": "^0.5.1"
+  }
+}
