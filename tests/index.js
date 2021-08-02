@@ -12,13 +12,13 @@ test('diversityIndex one factor', () => {
 })
 
 test('diversityIndex two factors', () => {
-  const race = [0.3, 0.2, 0.1, 0.5]
+  const race = [0.3, 0.2, 0.1, 0.4]
   const ethnicity = [0.1, 0.9]
   const result = diversityIndex([
     race,
     ethnicity
   ])
-  assert.equal(result, 0.68)
+  assert.equal(result, 0.75)
 })
 
 test.run()

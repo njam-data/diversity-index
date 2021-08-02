@@ -20,7 +20,7 @@ export function diversityIndex (factors, options = {}) {
   )
 
   if (options.round !== false) {
-    return Math.round( num * 100 + Number.EPSILON ) / 100
+    return Math.round(num * 100 + Number.EPSILON) / 100
   } else {
     return num
   }

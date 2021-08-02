@@ -29,7 +29,7 @@ const result = diversityIndex([
   ethnicity
 ])
 console.log('result', result)
-// result === 0.68
+// result === 0.75
 ```
 
 ## See also
