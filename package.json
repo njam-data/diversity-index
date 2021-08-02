@@ -1,6 +1,6 @@
 {
   "name": "@njam-data/diversity-index",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Calculate a diversity index based on the USA Today diversity index",
   "main": "index.js",
   "type": "module",
